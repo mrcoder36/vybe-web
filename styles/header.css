@@ -1,0 +1,109 @@
+.header {
+    border-radius: 50px 50px 0px 0px;
+    font-family: poppins;
+    font-weight: 500;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 60px;
+    padding: 10px 70px 0px 70px;
+}
+
+.header-left-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.header-middle-section {
+    font-family: Anton;
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+
+.header-right-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}
+
+/* .header-right-section button */
+.search-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+}
+
+.search-box input {
+    font-family: poppins;
+    font-style: italic ;
+    height: 34px;
+    border-radius: 25px;
+    border: none;
+    padding: 0px 0px 0px 10px;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid gray;
+    margin: 0px 4px 0px 4px;
+}
+
+.profile-btn img {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: 34px;
+    height: 34px;
+    object-fit: cover;
+    border-radius: 25px;
+    padding: 4px;
+}
+
+.drop-btn {
+    width: 14px;
+    height: 34px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 4px 3px 0px;
+}
+
+.cart-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    padding: 3px;
+    border: 1px solid lightcoral;
+    height: 36px;
+    width: 140px;
+}
+
+.cart-box button {
+    background-color: lightcoral;
+    border: none;
+    width: 44px;
+    height: 34px;
+    border-radius: 25px;
+}
+
+.cart-box p {
+    width: 92px;
+    padding: 4px;
+    color: rgb(88, 88, 88);
+}
