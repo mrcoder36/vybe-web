@@ -1,9 +1,197 @@
 .collage-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
     width: 100%;
-    margin: 50px 0px 50px 0px;
+    margin: 50px 50px 50px 50px;
+    gap: 20px;
     background: transparent;
+}
+
+/* Left Section */
+.collage-left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.silent-card {
+    background: linear-gradient(135deg, rgba(148, 187, 233, 0.6) 0%, rgba(238, 174, 202, 0.4) 100%);
+    border-radius: 30px;
+    padding: 80px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    flex: 1;
+    min-height: 200px;
+}
+
+.silent-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(148, 187, 233, 0.3);
+}
+
+.edge-card {
+    background: linear-gradient(135deg, rgba(238, 174, 202, 0.7) 0%, rgba(148, 187, 233, 0.5) 100%);
+    border-radius: 30px;
+    padding: 80px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    flex: 1;
+    min-height: 200px;
+}
+
+.edge-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(238, 174, 202, 0.4);
+}
+
+/* Middle Section */
+.collage-middle-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.collage-text {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border-radius: 30px;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 2;
+    min-height: 280px;
+    position: relative;
+}
+
+.collage-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.vibrant-card {
+    background: linear-gradient(135deg, rgba(238, 174, 202, 0.8) 0%, rgba(148, 187, 233, 0.6) 100%);
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    flex: 1;
+    min-height: 120px;
+}
+
+.vibrant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(238, 174, 202, 0.3);
+}
+
+.collage-middle-section > div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collage-middle-section > div:last-child button {
+    background-color: #eeaeca;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collage-middle-section > div:last-child button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(238, 174, 202, 0.4);
+}
+
+.collage-middle-section > div:last-child button img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Right Section */
+.collage-right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.neon-card {
+    background: linear-gradient(135deg, rgba(148, 187, 233, 0.7) 0%, rgba(238, 174, 202, 0.5) 100%);
+    border-radius: 30px;
+    padding: 80px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    flex: 1;
+    min-height: 200px;
+    letter-spacing: 2px;
+}
+
+.neon-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(148, 187, 233, 0.4);
+}
+
+.energy {
+    background: linear-gradient(135deg, rgba(238, 174, 202, 0.6) 0%, rgba(148, 187, 233, 0.7) 100%);
+    border-radius: 30px;
+    padding: 80px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    flex: 1;
+    min-height: 200px;
+}
+
+.energy:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(238, 174, 202, 0.4);
 }
